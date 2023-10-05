@@ -41,16 +41,17 @@ h3
 }
 a
 {
-    color: #985a38;
+    color: white;
     font-family: 'Raleway', serif;
     margin: auto 50px auto 50px;
     font-size: 1.4rem;
-    font-weight: 900;
-    text-decoration: none;
+    font-weight: 500;
+    text-decoration: none; 
 }
 a:hover
 {
-    color: #5c3621;
+    color: white;
+    font-weight: 900;
 }
 p
 {
@@ -67,6 +68,52 @@ hr
     margin-bottom: 50px;
     position: relative;
 }
+.navbar
+{
+    background-color: #EEEEEE;
+    padding: 20px 0px 0px 0px;
+    background-color: none;
+    margin: 0;
+    position: absolute;
+    left: 1380px;
+}
+.avatar
+{
+    margin: 0px;
+    padding: 0px;
+    height: 70px;
+    width: auto;
+    position: absolute;
+    right: 1400px;
+    top: 16px;
+}
+li
+{
+    list-style: none;
+    display: inline-flex;
+}
+.navbar-items
+{
+    font-family: 'Raleway', serif;
+    color: #654838;
+    font-weight: normal;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 120px;
+    margin: 0;
+
+    
+}
+.navbar ul li a.active
+{
+    font-weight: bold;
+    color: #7e6354;
+}
+.navbar-items:hover
+{
+    font-weight: 900;
+    color: #7e6354;
+}
 .top-Container
 {
     background-color: #EEEEEE;
@@ -81,9 +128,14 @@ hr
 }
 .bottom-Container
 {
-    background-color: #ebded8;
-    padding: 2rem;
+    background-color: #544238;
+    background-color: #7e6354;
+    padding: 2.5rem;
  
+}
+.bottom-Container > *
+{
+    color: white;
 }
 .top-cloud
 {
